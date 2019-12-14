@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "How good are these boys?",
   "scripts": {
-    "build:webpack": "NODE_ENV=production webpack --config config.prod.js",
-    "now-build": "webpack --config webpack.prod.config.js",
+    "build:webpack": "webpack --config webpack.config.prod.js",
+    "now-build": "build:webpack",
     "build": "npm run clean && npm run build:webpack --output-dir public",
     "test": "NODE_ENV=production mocha './tests/**/*.spec.js' --compilers js:babel-core/register",
     "clean": "rimraf dist",
