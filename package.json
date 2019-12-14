@@ -1,14 +1,14 @@
 {
   "name": "redux-app",
   "version": "1.0.0",
-  "description": ":) ",
+  "description": "Rank these boys by goodness",
   "scripts": {
     "build:webpack": "NODE_ENV=production webpack --config webpack.config.prod.js",
-    "build": "npm run clean && npm run build:webpack",
+    "build": "npm run clean && npm run build:webpack --output public",
     "test": "NODE_ENV=production mocha './tests/**/*.spec.js' --compilers js:babel-core/register",
     "clean": "rimraf dist",
     "start": "node devServer.js",
-    "tunnel": "browser-sync start --proxy localhost:7770 --tunnel wesbos"
+    "tunnel": "browser-sync start --proxy localhost:7770 --tunnel tbskllr"
   },
   "repository": {
     "type": "git",
