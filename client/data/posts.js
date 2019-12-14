@@ -19,15 +19,15 @@ const posts = [
   },
   {
     code: "BAPIPRjQce9",
-    likes: 47,
+    likes: 81,
     id: "1157179863266871229",
-    display_src: `https://placedog.net/301`
+    display_src: `https://placedog.net/361`
   },
   {
     code: "-hZh6IQcfN",
-    likes: 66,
+    likes: 82,
     id: "1126293663140399053",
-    display_src: `https://placedog.net/123`
+    display_src: `https://placedog.net/423`
   },
   {
     code: "-B3eiIwcYV",
@@ -39,7 +39,7 @@ const posts = [
     code: "BAhvZrRwcfu",
     likes: 30,
     id: "1162418651480049646",
-    display_src: `https://placedog.net/430`
+    display_src: `https://placedog.net/432`
   },
   {
     code: "BAAJqbOQcW5",
